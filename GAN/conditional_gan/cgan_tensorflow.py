@@ -4,7 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 import os
-
+# G 输入 100（z）+10(label) 隐藏层64 输出784
+# D 输入 784（图片）+10（label) 隐藏64 输出1
 
 mnist = input_data.read_data_sets('../../MNIST_data', one_hot=True)
 mb_size = 64
